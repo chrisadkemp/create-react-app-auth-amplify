@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Index from './src/pages/index';
+
 import { withAuthenticator } from 'aws-amplify-react'
 import Amplify, { Auth } from 'aws-amplify';
 import aws_exports from './aws-exports';
@@ -25,7 +25,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
-        <Index></Index>
+     
       </div>
     );
   }
